@@ -1,0 +1,245 @@
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+    background-color: #fff;
+}
+
+body {
+    padding-top: 75px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+a {
+    color: #5067A0;
+}
+
+.page-header {
+    font-style: italic;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover{
+    
+  color: white;
+    
+    
+}
+.navbar-default .navbar-nav .active a,
+.navbar-default .navbar-nav .active a:hover{
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+    background-color: #5067A0;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: black;
+    background: #ffffff;
+    transition-duration: 0.2s;
+    border-radius: 10px;
+    
+}
+
+.navbar-default  {
+    height: 75px;
+/*    background: #2C3C4B;*/
+    background: #5067A0 ;
+    font-family: "Roboto", sans-serif;
+    font-size: auto;
+    border: 0px;
+    border-color: black;
+    margin-bottom: 0;
+    padding-top: 1em;
+    
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+#well2 {
+    background-color: white;
+    font-size: 1.1em;
+}
+
+#coverTitle {
+    margin: .4em;
+}
+
+#coverPicture {
+    margin-bottom: 1.5em;
+}
+
+header.carousel {
+    height: 60%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+.carousel-indicators .active { background: #5067A0 }
+.content { margin-top: 20px }
+.adjust1 {
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+.adjust2 { margin: 0 }
+.carousel-indicators li { border : 1px solid #ccc }
+.carousel-control {
+    color: #5067A0;
+    width: 5%;
+}
+.carousel-control:hover,
+.carousel-control:focus { color: #3F51B5 }
+.carousel-control.left,
+.carousel-control.right { background-image: none }
+.media-object {
+    margin: auto;
+    margin-top: 15%;
+}
+@media screen and (max-width: 768px) { 
+    .media-object { margin-top: 0 }
+}
+
+/*
+i.fa-circle {
+    font-size: 1em; 
+    color: white;
+}
+*/
+
+i.fa-check {
+    font-size: 1em; 
+    color: #5067A0  ;
+}
+
+a.btn-primary {
+    
+    background-color: #5067A0 ;
+    border-color: #5067A0 ;
+}
+
+a.btn-primary:hover{
+    color: black;
+    background-color: white ;
+    border-color: #5067A0 ;
+}
+
+#pheader{
+    background-color:#5067A0  ;
+    color: white;
+}
+
+#pbody {
+    background-color: white;
+}
+
+#capHeader {
+    background-color: white;
+}
+
+#capPictures {
+    background-color: white;
+}
+
+.breadcrumb {
+    background-color: white;
+}
+
+.well {
+    background-color: white;
+    color: black;
+}
+
+
+#overviewWellText {
+    background-color: white;
+    color: black;
+}
+
+#callToAction {
+    background-color: white  ;
+    color: black;
+}
+
+#ctaButton {
+    background-color:#5067A0  ;
+    color: white;
+}
+
+#ctaButton:hover {
+    color: black;
+    background-color: white ;
+    border-color: #5067A0 ;
+}

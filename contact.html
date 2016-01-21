@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>C2C Industries, LLC</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="mainpagenavbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        
+                        
+                        <a class="navbar-brand" href="/">
+              <img alt="brand" src="img/C2C%20Logo%2015%20Vector.png" style="height:50px">
+                        </a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="capabilities.html">Capabilities</a></li>
+                            <li><a href="products.html">Products</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li class="active"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    
+    <header>
+        <div class="panel-body" id="well2">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a href="https://www.google.com/maps/place/13488+5th+St,+Chino,+CA+91710/@34.008173,-117.693704,17z/data=!3m1!4b1!4m2!3m1!1s0x80c332d77e8321d5:0x7b8a48c0602edc25"><i class="fa fa-map-marker"></i>&nbsp;13488 5th Street Chino CA 91710</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="mailto:contact@c2cindustries.com"><i class="fa fa-envelope"></i>&nbsp;contact@c2cindustries.com</a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <i class="fa fa-phone"></i>&nbsp;(909) 628 - 7200&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fa fa-fax"></i>&nbsp;(909) 628 - 2100&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Contact Us
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="/">Home</a>
+                    </li>
+                    <li class="active">Contact Us</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <!-- Map Column -->
+            <div class="col-md-8">
+                <html>
+                  <head>
+                    <style>
+                      #map-canvas {
+                        height: 400px;
+                        width: 100%;
+                      }
+                    </style>
+                    <script src="https://maps.googleapis.com/maps/api/js"></script>
+                    <script>
+                      function initialize() {
+                        var mapCanvas = document.getElementById('map-canvas');
+                        var myLatLng = new google.maps.LatLng(34.008173,-117.693704);
+                        var mapOptions = {
+                          center: myLatLng,
+                          zoom: 10,
+                          mapTypeId: google.maps.MapTypeId.ROADMAP
+                        }
+                        var map = new google.maps.Map(mapCanvas, mapOptions)
+                        var marker = new google.maps.Marker({
+                            position: myLatLng,
+                            map: map,
+                            title: 'C2C Industries'
+                        });
+                      }
+                      google.maps.event.addDomListener(window, 'load', initialize);
+                    </script>
+                  </head>
+                  <body>
+                    <div id="map-canvas"></div>
+                  </body>
+                </html>
+            </div>
+            <!-- Contact Details Column -->
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading" id="capHeader">
+                        <h3>C2C Industries, LLC</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                    13488 Fifth Street<br>Chino, CA 91710<br>
+                </p>
+                <p><i class="fa fa-phone"></i> 
+                    <abbr title="Phone">Phone</abbr>: (909) 628-7200</p>
+                <p><i class="fa fa-fax"></i> 
+                    <abbr title="Fax">Fax</abbr>: (909) 628-2100</p>
+                <p><i class="fa fa-envelope-o"></i> 
+                    <abbr title="Email">Email</abbr>: <a href="mailto:contact@c2cindustries.com">contact@c2cindustries.com</a>
+                </p>
+                <p><i class="fa fa-clock-o"></i> 
+                    <abbr title="Hours">Office Hours</abbr>: Monday - Thursday: 9:00 AM to 5:00 PM</p>
+                
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li>
+                        <a href="https://www.facebook.com/pages/C2C-Industries-LLC/1598398573768069?fref=ts"><i class="fa fa-facebook fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/c2cindustries/"><i class="fa fa-instagram fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCYMihxJxO5oVylURQbzvAOw"><i class="fa fa-youtube fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=C2C+Industries+LLC"><i class="fa fa-google fa-2x"></i></a>
+                    </li>
+                </ul>
+                
+                <a class="btn btn-pcci-l" type="button" href="https://www.google.com/maps/place/13488+5th+St,+Chino,+CA+91710/@34.008173,-117.693704,17z/data=!3m1!4b1!4m2!3m1!1s0x80c332d77e8321d5:0x7b8a48c0602edc25" style="font-size: 180%"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Get Directions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+
+        <hr>
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Departments</h2>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="panel panel-default">
+                    <div class="panel-heading" id="capHeader">
+                        <h4>Sales</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p><a class="btn btn-primary" href="mailto:jack@c2cindustries.com" role="button">Email</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="panel panel-default">
+                    <div class="panel-heading" id="capHeader">
+                        <h4>Accounts Payable</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p><a class="btn btn-primary" href="mailto:lisa@c2cindustries.com" role="button">Email</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="panel panel-default">
+                    <div class="panel-heading" id="capHeader">
+                        <h4>Accounts Receivable</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p><a class="btn btn-primary" href="mailto:lisa@c2cindustries.com" role="button">Email</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="panel panel-default">
+                    <div class="panel-heading" id="capHeader">
+                        <h4>Quality Control</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p><a class="btn btn-primary" href="mailto:jeff@c2cindustries.com" role="button">Email</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; C2C Industries, LLC 2015</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+</body>
+
+</html>
